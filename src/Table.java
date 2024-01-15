@@ -27,6 +27,9 @@ public class Table extends Thread{
         }
     }
 
+    /**
+     * Философы думают
+     */
     private void thinking() {
 
         for(Philosophear p : philosophears) {
@@ -56,7 +59,7 @@ public class Table extends Thread{
 //    }
 
     /**
-     *
+     * Метод приёма пищи философами за столом совместно с проверкой валидности вилки и её свободы
      */
     public void eating() {
         for(Philosophear p : philosophears) {
