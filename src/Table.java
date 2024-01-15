@@ -34,6 +34,9 @@ public class Table extends Thread{
         }
     }
 
+    /**
+     * Метод проверки валидности вилки для каждого конкретного философа.
+     */
 //    private boolean validForks() {
 //        for(Philosophear p : philosophears) {
 //            for(int i = 0; i < forks.size(); i++) {
@@ -52,6 +55,9 @@ public class Table extends Thread{
 //        return  false;
 //    }
 
+    /**
+     *
+     */
     public void eating() {
         for(Philosophear p : philosophears) {
             if(!p.getIsThinking()) {

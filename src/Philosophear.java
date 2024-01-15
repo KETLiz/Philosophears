@@ -1,7 +1,6 @@
 import java.util.concurrent.CountDownLatch;
 
-public class Philosophear extends Thread{
-    private Fork fork;
+public class Philosophear implements Runnable{
     private String name;
     private int num;
     private boolean hungry; // сытый/не сытый
